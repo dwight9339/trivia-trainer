@@ -1,0 +1,11 @@
+{
+  "name": "trivia-trainer",
+  "version": "1.0.0",
+  "description": "Review random trivia questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
