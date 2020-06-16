@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "gyparody";
+  src: url("./gyparody.ttf")
+}
+
+@font-face {
+  font-family: "staat";
+  src: url("./Staatliches-Regular.ttf")
+}
+
+html {
+  background-color: #040aae;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "gyparody";
+  margin-top: 10px;
+  font-size: larger;
+  background-color: #040aae;
+  color: white;
+}
+
+.mainBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #060CE9;
+}
+
+.questionText {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 75%;
+  color: yellow;
+  font-size: x-large;
+  font-family: "staat";
+}
+
+.answerText {
+  cursor: default;
+  color: yellow;
+  font-size: large;
+  font-weight: 1000;
+  font-family: "staat";
+  margin-bottom: 30px;
+}
+
+.nextQ {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #040aae;
+  border: none;
+  color: yellow;
+  font-size: large;
+  font-weight: 1000;
+  padding: 15px 32px;
+  font-family: "staat";
+}
+
+.infoPanel {
+  display: flex;
+  flex-direction: row;
+  color: yellow;
+  font-size: 1.4em;
+  font-family: "staat";
+  margin-left: 25px;
+}
+
+.infoPanel div {
+  margin-right: 10px;
+}
+
+.buttonPanel button {
+  margin-right: 10px;
+  border-radius: 8px;
+}
